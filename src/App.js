@@ -13,7 +13,7 @@ export default function App() {
   return (
     <Routes>
       <Route element={<Layout />}>
-        <Route path="/" element={<Home />} />
+        <Route basename="/thomaswoodsportfolio" path="/" element={<Home />} />
         <Route path="/case-studies" element={<CaseStudies />} />
         <Route path="/case-studies/delaware" element={<DelawareCaseStudy />} />
         <Route path="/case-studies/apcracingseries" element={<APCRacingSeries />} />
