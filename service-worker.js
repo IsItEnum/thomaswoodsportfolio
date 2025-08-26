@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/thomaswoodsportfolio/precache-manifest.87f5cfa7b9edff466cc4afedcec52735.js"
+  "/thomaswoodsportfolio/precache-manifest.933596315202fde555e4a4efe87f53a3.js"
 );
 
 workbox.clientsClaim();
