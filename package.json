@@ -2,7 +2,7 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://isitenum.github.io/twoodsportfolio",
+  "homepage": "https://isitenum.github.io/thomaswoodsportfolio",
   "dependencies": {
     "lightgallery": "^2.9.0-beta.1",
     "react": "^16.8.3",
