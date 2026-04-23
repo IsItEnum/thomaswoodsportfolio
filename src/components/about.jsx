@@ -4,7 +4,7 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <section className="colorlib-about" data-section="about">
+        <section id="about" className="colorlib-about" data-section="about">
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-12">
@@ -14,8 +14,8 @@ export default class About extends Component {
                     <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
                     <p>
-                        I am a Computer Programming graduate from Fanshawe College. I love exploring new technologies and always looking for a challenge and trying to learn new things. When I comes to programming I love being able to create things that people will enjoy and things I will use in my everyday life. Such as automating tasks that are slow to do on my PC like sorting my file system or even searching files looking for a keyword much like linux's grep.
-                        Besides coding I have a love for all things history dating all the way back to the Roman empire and Alexanders great empire. I enjoy a good challange and love to solve complex problem. It may be programming or playing a glorfied map painting video game such as Europa Universalis 4 or Crusader Kings. Both of these have one thing in common they are hard and require a creative solution to a problem. Programming has taught me a great deal with problem solving and wanting things to be fast and effcient. 
+                        I am a Computer Programming graduate from Fanshawe College. I love exploring new technologies, always looking for a challenge and trying to learn something new. When it comes to programming, I love building things that people will actually use, whether that is automating slow tasks on my PC, sorting a file system, or searching files for a keyword much like Linux's grep.
+                        Outside of coding I have a love for history, dating all the way back to the Roman Empire and Alexander's conquests. I enjoy a good challenge and love solving complex problems, whether that means writing code or playing a glorified map-painting game like Europa Universalis 4 or Crusader Kings. Both demand creative problem solving, which is something programming has sharpened in me a great deal.
                     </p>
                     </div>
                 </div>
@@ -28,8 +28,8 @@ export default class About extends Component {
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">What I do?</span>
-                <h2 className="colorlib-heading">Here are some of my expertise</h2>
+                <span className="heading-meta">What I Do</span>
+                <h2 className="colorlib-heading">Areas of Expertise</h2>
             </div>
             </div>
             <div className="row row-pt-md">
@@ -39,8 +39,8 @@ export default class About extends Component {
                     <i className="icon-bulb" />
                 </span>
                 <div className="desc">
-                    <h3>Patterns in software </h3>
-                    <p>I have experience using software design patterns from things such as Model View Controller, Command, Factory and many other software design patterns. A great example of using these programming patterns was during my Gomoku project</p>
+                    <h3>Software Design Patterns</h3>
+                    <p>I have hands-on experience applying patterns such as Model View Controller, Command, and Factory. A strong example is my Gomoku project, which was built entirely around MVC and the Command pattern.</p>
                 </div>
                 </div>
             </div>
@@ -50,8 +50,8 @@ export default class About extends Component {
                     <i className="icon-phone3" />
                 </span>
                 <div className="desc">
-                    <h3>Data Structures & Algorithms</h3>
-                    <p>Having graduated from Fanshawe's Computer Programming Analyst, I have understanding of fundamental concepts of Data Structures and Algorithms. I've applied these in my programming to allow it to be fast and effective at handling of database applications for faster CRUD procedures.</p>
+                    <h3>Data Structures and Algorithms</h3>
+                    <p>Through Fanshawe's Computer Programming Analyst program, I built a solid understanding of fundamental data structures and algorithms, and have applied them to write fast, efficient database-driven applications.</p>
                 </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Web Development</h3>
-                    <p>Using react to build this website and github pages to deploy it. Also during school I desgined many full stack websites using Angular and Java Spring also using HTML/CSS to design sleak and cool websites. I have also created eCommerance based websites during school where a user would place orders and be able to view and update these orders.</p>
+                    <p>I built this site in React and deploy it via GitHub Pages. During school I designed full-stack web applications using Angular and Java Spring, and have shipped eCommerce sites where users can place and manage orders.</p>
                 </div>
                 </div>
             </div>
@@ -73,14 +73,10 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Object Oriented Programming</h3>
-                    <p>Use of languages such as C++, Java, and C# to create large scale projects designed for efficency and reusablility. </p>
+                    <p>I have built large-scale projects in C++, Java, and C#, focusing on clean architecture, efficiency, and reusability.</p>
                 </div>
                 </div>
             </div>
-            
-            {/*more here maybe
-    
-            */}
             </div>
         </div>
         </section>

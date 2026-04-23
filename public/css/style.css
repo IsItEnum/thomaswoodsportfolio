@@ -2126,9 +2126,7 @@ body.offcanvas .colorlib-nav-toggle {
   padding: 10px !important;
 }
 
-.js .animate-box {
-  opacity: 0;
-}
+/* .js .animate-box opacity:0 removed - jQuery waypoints don't work in React SPA */
 
 
 .cs-gallery-grid { display: flex; flex-wrap: wrap; gap: 12px; }

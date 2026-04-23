@@ -9,7 +9,7 @@ export default function CaseStudyDelaware() {
           <div className="row">
             <div className="col-md-10 animate-box" data-animate-effect="fadeInLeft">
               <span className="heading-meta">case study</span>
-              <h2 className="colorlib-heading">Delaware Speedway Rebuild — Strapi Headless CMS + Next.js</h2>
+              <h2 className="colorlib-heading">Delaware Speedway Rebuild - Strapi Headless CMS + Next.js</h2>
               <p className="cs-hero-sub">Helped lead a ground-up rebuild of a blog/news-heavy site. We chose Strapi for content authoring and Next.js static generation for performance and simpler updates.</p>
               <div className="cs-tags">
                 <span className="cs-tag">Next.js</span>
@@ -54,7 +54,7 @@ export default function CaseStudyDelaware() {
       </Section>
       <Section id="context" title="Context and Problem">
         <ul className="cs-list">
-          <li>News/blog-driven site with spikes around race days—performance and uptime matter.</li>
+          <li>News/blog-driven site with spikes around race days-performance and uptime matter.</li>
           <li>Non-technical editors needed a clean, safe workflow to create posts, pages, and updates.</li>
           <li>Legacy system made routine updates slow and fragile.</li>
         </ul>

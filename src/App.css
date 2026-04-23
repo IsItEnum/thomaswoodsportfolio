@@ -33,7 +33,20 @@
 }
 
 
-.animate-box { opacity: 1 !important; }
+/* jQuery waypoints run after React renders and trigger animate.css classes on scroll,
+   causing flicker. Disable all scroll-triggered animations. */
+.js .animate-box,
+.animate-box {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.animate-box.animated,
+.animate-box.item-animate {
+  animation: none !important;
+  transition: none !important;
+  opacity: 1 !important;
+}
 
 /* jQuery runs before React renders, so set these via CSS instead */
 .js-fullheight { height: 100vh; }

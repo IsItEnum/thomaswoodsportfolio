@@ -10,7 +10,7 @@ export default function APCPIM() {
           <div className="row">
             <div className="col-md-10 animate-box" data-animate-effect="fadeInLeft">
               <span className="heading-meta">case study</span>
-              <h2 className="colorlib-heading">APC Product Information Master (PIM) — C# API + NetSuite</h2>
+              <h2 className="colorlib-heading">APC Product Information Master (PIM) - C# API + NetSuite</h2>
               <p className="cs-hero-sub">
                 Led the backend API for a lightweight PIM used to onboard new products and surface vendor pricing updates
                 for our NetSuite ERP. We took an API-first approach in C# so the UI could be built in any stack, while bulk
@@ -90,7 +90,7 @@ export default function APCPIM() {
       <Section id="results" title="Results">
         <ul className="cs-list">
           <li>Single source of truth for product attributes with role-based editing and approvals.</li>
-          <li>Fewer pricing discrepancies—Celigo continues to own updates while PIM gives clear visibility and diffs.</li>
+          <li>Fewer pricing discrepancies-Celigo continues to own updates while PIM gives clear visibility and diffs.</li>
           <li>Faster onboarding: streamlined checklists and validations reduce back-and-forth across teams.</li>
         </ul>
       </Section>

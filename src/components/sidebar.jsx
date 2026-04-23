@@ -3,6 +3,11 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { CASES } from '../constant/constants';
 
+function scrollTo(id) {
+  var el = document.getElementById(id);
+  if (el) { el.scrollIntoView({ behavior: 'smooth' }); }
+}
+
 function titleFromPath(pathname) {
   const parts = pathname.split('/').filter(Boolean);
   if (parts[0] === 'case-studies' && parts[1]) {
@@ -25,7 +30,7 @@ export default function Sidebar() {
           <div className="text-center" style={{ paddingBottom: 20 }}>
             <div className="author-img" style={{ backgroundImage: 'url(../../images/about.jpg)' }} />
             <h1 id="colorlib-logo"><a href="index.html">Thomas Woods</a></h1>
-            <span className="email"><i className="icon-mail"></i> tmwoodsportfolio@gmail.com</span>
+            <span className="email"><i className="icon-mail"></i> thomaswoods12345@gmail.com</span>
             <span className="email"><i className="icon-globe2" style={{fontSize: 15}}></i> London ON, Canada</span>
           </div>
 
@@ -35,14 +40,14 @@ export default function Sidebar() {
                 <div>
                   <div id="navbar" className="collapse">
                     <ul>
-                      <li className="active"><a href="#home" data-nav-section="home">Introduction</a></li>
-                      <li><a href="#about" data-nav-section="about">About</a></li>
-                      <li><a href="#timeline" data-nav-section="timeline">Timeline</a></li>
-                      <li><a href="#projects" data-nav-section="projects">Projects</a></li>
+                      <li className="active"><a href="#colorlib-hero" onClick={function(e){ e.preventDefault(); scrollTo('colorlib-hero'); }}>Introduction</a></li>
+                      <li><a href="#about" onClick={function(e){ e.preventDefault(); scrollTo('about'); }}>About</a></li>
+                      <li><a href="#timeline" onClick={function(e){ e.preventDefault(); scrollTo('timeline'); }}>Timeline</a></li>
+                      <li><a href="#projects" onClick={function(e){ e.preventDefault(); scrollTo('projects'); }}>Projects</a></li>
                     </ul>
                   </div>
                   <ul>
-                    <li><a href="/case-studies" data-nav-section="casestudies">Case Studies</a></li>
+                    <li><Link to="/case-studies">Case Studies</Link></li>
                   </ul>
                 </div>
               )

@@ -8,7 +8,7 @@ import Zoom from "yet-another-react-lightbox/dist/plugins/zoom";
 
 export default function CaseStudyGallery({
   items = [
-    { thumb: '/images/Returns1.png', full: '/images/Returns1.png', alt: 'Returns portal — dashboard' },
+    { thumb: '/images/Returns1.png', full: '/images/Returns1.png', alt: 'Returns portal - dashboard' },
     { thumb: '/images/Returns2.png', full: '/images/Returns2.png', alt: 'List view' },
   ],
   thumbW = 600,

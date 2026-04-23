@@ -17,7 +17,7 @@ export default function APCRFID() {
                     <div className="row">
                         <div className="col-md-10 animate-box" data-animate-effect="fadeInLeft">
                             <span className="heading-meta">case study</span>
-                            <h2 className="colorlib-heading">RFID Asset Tracking — Zebra + Freshservice + Python</h2>
+                            <h2 className="colorlib-heading">RFID Asset Tracking - Zebra + Freshservice + Python</h2>
                             <p className="cs-hero-sub">
                                 Built an RFID-based asset tracking flow for the IT inventory room. Zebra scanners read tag EPCs; Python tools
                                 deduplicate and convert HEX into ASCII, map to Freshservice assets, and log/notify when items leave the room.
@@ -67,7 +67,7 @@ export default function APCRFID() {
                 <ul className="cs-list">
                     <li>Manual sign-out made audits slow and error-prone; no real-time egress signal.</li>
                     <li>Freshservice held the truth for assets, but wasn't tied to physical movement.</li>
-                    <li>RF environments are noisy—duplicates and stray reads needed filtering.</li>
+                    <li>RF environments are noisy-duplicates and stray reads needed filtering.</li>
                 </ul>
             </Section>
 
@@ -95,7 +95,7 @@ export default function APCRFID() {
             <Section id="results" title="Results">
                 <ul className="cs-list">
                     <li>Same-day inventory reconciliation with auditable movement history.</li>
-                    <li>Fewer “missing” assets—unexpected exits are flagged immediately.</li>
+                    <li>Fewer “missing” assets-unexpected exits are flagged immediately.</li>
                     <li>Ops time saved: less manual entry; data flows straight into Freshservice.</li>
                 </ul>
             </Section>
@@ -111,7 +111,7 @@ export default function APCRFID() {
             <Section id="gallery" title="Screenshots / Gallery" col='col-md-12'>
                 <CaseStudyGallery
                     items={[
-                        { thumb: '/images/RFID1.png', full: '/images/RFID1.png', alt: 'RFID asset tracking — dashboard' },
+                        { thumb: '/images/RFID1.png', full: '/images/RFID1.png', alt: 'RFID asset tracking - dashboard' },
                         { thumb: '/images/RFID2.png', full: '/images/RFID2.png', alt: 'RFID setup' },
                     ]}
                 />

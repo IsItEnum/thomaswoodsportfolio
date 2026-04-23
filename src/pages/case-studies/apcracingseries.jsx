@@ -9,7 +9,7 @@ export default function APCRacingSeries() {
           <div className="row">
             <div className="col-md-10 animate-box" data-animate-effect="fadeInLeft">
               <span className="heading-meta">case study</span>
-              <h2 className="colorlib-heading">APC Racing Series — Standings and Roster (Strapi + Next.js)</h2>
+              <h2 className="colorlib-heading">APC Racing Series - Standings and Roster (Strapi + Next.js)</h2>
               <p className="cs-hero-sub">
                 Helped lead a rebuild of a standings + blog site. We chose Strapi for content authoring and
                 Next.js static generation for performance and simpler updates.

@@ -98,7 +98,7 @@ export default function APCReturns() {
             <Section id="gallery" title="Screenshots / Gallery" col='col-md-12'>
                 <CaseStudyGallery
                     items={[
-                        { thumb: '/images/Returns1.png', full: '/images/Returns1.png', alt: 'Returns portal — dashboard' },
+                        { thumb: '/images/Returns1.png', full: '/images/Returns1.png', alt: 'Returns portal - dashboard' },
                         { thumb: '/images/Returns2.png', full: '/images/Returns2.png', alt: 'List view' },
                     ]}
                 />

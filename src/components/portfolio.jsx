@@ -18,10 +18,9 @@ export default class Portfolio extends Component {
 									<div className="desc">
 										<div className="con">
 											<h3><a href="work.html">Mystery Mirror</a></h3>
-											<span>This project was made as the final for our software projects applied and recieved very high praise from plenty of people. This was also a project shown off at the fall open house by myself and other members.</span>
+											<span>Built as a final project for Software Projects Applied, this received high praise and was shown off at the fall open house.</span>
 											<p className="icon">
 												<span><a href="https://www.youtube.com/watch?v=4ny0rNwsXyg&feature=youtu.be"><i className="icon-video" />  View Video</a></span>
-												
 											</p>
 										</div>
 									</div>
@@ -32,10 +31,9 @@ export default class Portfolio extends Component {
 									<div className="desc">
 										<div className="con">
 											<h3><a href="work.html">C++ Gomoku with MVC</a></h3>
-											<span>This program uses Model view Control concepts are well as the command pattern. It is made using C++ and uses a facade to communicate with the C WINAPI.</span>
+											<span>A Gomoku game built in C++ using Model View Controller and the Command pattern. Communicates with the Windows API through a facade layer.</span>
 											<p className="icon">
 												<span><a href="https://www.youtube.com/watch?v=v8xpK2BQHxE&feature=youtu.be"><i className="icon-video" />  View Video</a></span>
-												
 											</p>
 										</div>
 									</div>
@@ -46,7 +44,7 @@ export default class Portfolio extends Component {
 									<div className="desc">
 										<div className="con">
 											<h3><a href="work.html">C++ Paint MVC</a></h3>
-											<span>This paint application uses the exact same framework as the Gomoku application but instead of gomoku it is a simple paint application. This application is also made with C++</span>
+											<span>A simple paint application built on the same MVC framework as the Gomoku project, also written in C++ and using the Windows API.</span>
 											<p className="icon">
 												<span><a href="https://youtu.be/Su29hTfTi9M"><i className="icon-video" /> View Video</a></span>
 											</p>
@@ -58,8 +56,8 @@ export default class Portfolio extends Component {
 								<div className="project" style={{backgroundImage: 'url(images/img-4.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">This website!</a></h3>
-											<span>My website here was deployed using github pages which is uses simple git commands to upadate the website quickly and it is also free. It uses a colorlib template for the styling icons were found free online. It uses a bit of react </span>
+											<h3><a href="work.html">This Website</a></h3>
+											<span>Built with React and deployed to GitHub Pages. The layout is based on a Colorlib template, with icons sourced from Flaticon.</span>
 										</div>
 									</div>
 								</div>
@@ -68,16 +66,16 @@ export default class Portfolio extends Component {
 								<div className="project" style={{backgroundImage: 'url(images/img-6.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Chat App!</a></h3>
-											<span>Simple react app for chatting with other users allows for multiple users to be in one chatroom. Designed for mobile phones also Progressive Web Application approved. It is deployed using heroku which is a free cloud platform </span>
+											<h3><a href="work.html">Chat App</a></h3>
+											<span>A React chat app where multiple users can join a shared room. Built as a Progressive Web App and optimized for mobile.</span>
 											<p className="icon">
-												<span><a href="https://twoods-chatroom.herokuapp.com/"><i className="icon-world2" /> Website</a></span>											
+												<span><a href="https://twoods-chatroom.herokuapp.com/"><i className="icon-world2" /> Website</a></span>
 											</p>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>	
+						</div>
 					</div>
 			</section>
       </div>
