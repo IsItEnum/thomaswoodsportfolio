@@ -21,7 +21,7 @@ export default class ProfessionalPortfolio extends Component {
 											<span>This website was recreated in 2023 using modern Web development standards and SEO best practices</span>
 											<p className="icon">
 												<span><a href="https://www.delawarespeedway.com/"><i className="icon-world2" />  View Website</a></span>
-												<span><a href="/case-studies/delaware"><i className="icon-calender" />  View Case Study</a></span>
+												<span><a href="case-studies/delaware"><i className="icon-calender" />  View Case Study</a></span>
 											</p>
 										</div>
 									</div>

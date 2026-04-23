@@ -14,8 +14,8 @@
     "yet-another-react-lightbox": "^3.25.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
@@ -31,6 +31,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "gh-pages": "^6.3.0"
   }
 }
