@@ -34,3 +34,10 @@
 
 
 .animate-box { opacity: 1 !important; }
+
+/* jQuery runs before React renders, so set these via CSS instead */
+.js-fullheight { height: 100vh; }
+
+/* Flexslider needs a visible height without jQuery */
+#colorlib-hero .flexslider { height: 100vh; }
+#colorlib-hero .flexslider .slides li { height: 100vh; }
