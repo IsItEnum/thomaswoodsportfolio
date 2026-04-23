@@ -15,7 +15,7 @@ export default function CaseStudies() {
               {CASES.map(cs => (
                 <li key={cs.slug} style={{ marginBottom: 16 }}>
                   <h3 style={{ margin: 0, fontSize: 18, fontWeight: 700 }}>
-                    <a href={`/case-studies/${cs.slug}`}>{cs.title}</a>
+                    <Link to={`/case-studies/${cs.slug}`}>{cs.title}</Link>
                   </h3>
                   <div style={{ fontSize: 13, color: '#666' }}>
                     {cs.subtitle} · {cs.meta}

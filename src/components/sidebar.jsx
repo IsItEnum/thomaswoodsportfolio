@@ -14,7 +14,6 @@ function titleFromPath(pathname) {
 
 export default function Sidebar() {
   const location = useLocation();
-  const isHome = location.pathname === '/';
   const isCaseStudy = location.pathname.includes('/case-studies');
   const currentTitle = titleFromPath(location.pathname);
 
@@ -31,7 +30,7 @@ export default function Sidebar() {
           </div>
 
           <nav id="colorlib-main-menu" role="navigation" className="navbar">
-            {isHome ?
+            {!isCaseStudy ?
               (
                 <div>
                   <div id="navbar" className="collapse">
@@ -50,7 +49,7 @@ export default function Sidebar() {
               : (
                 <ul>
                   <li>
-                    <a href="index.html">Home</a>
+                    <Link to="/">Home</Link>
                   </li>
                 </ul>
               )}
@@ -59,11 +58,11 @@ export default function Sidebar() {
               (
                 <ul>
                   <li className={!currentTitle ? 'active' : ''}>
-                    <a href="/case-studies">Case Studies</a>
+                    <Link to="/case-studies">Case Studies</Link>
                   </li>
                   {CASES.map(cs => {
                     return (<li className={(currentTitle || '').toLowerCase() === cs.slug.toLowerCase() ? 'active' : ''} key={cs.slug}>
-                      <a href={`/case-studies/${cs.slug}`}>{cs.title}</a>
+                      <Link to={`/case-studies/${cs.slug}`}>{cs.title}</Link>
                       <div style={{ fontSize: 13, color: '#666' }}>
                       </div>
                     </li>
